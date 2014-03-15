@@ -1,0 +1,489 @@
+.bg {
+  background: #ccc;
+}
+.b {
+  border: 1px solid red;
+}
+.active {
+  opacity: 1.0!important;
+}
+.inactive {
+  opacity: 0.1!important;
+}
+.bg2 {
+  background: #999;
+}
+.visible {
+  display: block!important;
+}
+.invisible {
+  display: none;
+}
+html {
+  background-color: #d7e6f3;
+}
+#container {
+  margin: 0 auto;
+  width: 960px;
+  min-height: 400px;
+  position: relative;
+}
+#container .return {
+  display: inline-block;
+  width: 58px;
+  height: 20px;
+  position: absolute;
+  left: 50px;
+  top: 40px;
+  background: url(../images/return.png) no-repeat;
+  z-index: 100;
+}
+/* child */
+#child {
+  width: 100%;
+  height: 1200px;
+  background: url(../images/child_bg.png) no-repeat;
+}
+/* house */
+#house {
+  width: 100%;
+  height: 972px;
+  background: url(../images/house/pricebg.png) no-repeat;
+  position: absolute;
+}
+#house table {
+  width: 870px;
+  height: 500px;
+  margin-top: 300px;
+  position: absolute;
+  text-align: left;
+  left: 50%;
+  margin-left: -435px;
+}
+#house table tr {
+  height: 55px;
+  width: 100%;
+}
+#house table .city {
+  width: 230px;
+  height: 32px;
+  background-position: left center!important;
+  cursor: pointer;
+}
+#house table .price {
+  width: 470px;
+  background-position: left center!important;
+}
+#house table .divorce {
+  width: 100px;
+  background-position: left center!important;
+}
+#house table .bj {
+  background: url(../images/house/citybj.png) no-repeat;
+}
+#house table .sh {
+  background: url(../images/house/citysh.png) no-repeat;
+}
+#house table .gz {
+  background: url(../images/house/citygz.png) no-repeat;
+}
+#house table .hk {
+  background: url(../images/house/cityhk.png) no-repeat;
+}
+#house table .tb {
+  background: url(../images/house/citytb.png) no-repeat;
+}
+#house table .sz {
+  background: url(../images/house/citysz.png) no-repeat;
+}
+#house table .hz {
+  background: url(../images/house/cityhz.png) no-repeat;
+}
+#house table .xm {
+  background: url(../images/house/cityxm.png) no-repeat;
+}
+#house table .dl {
+  background: url(../images/house/citydl.png) no-repeat;
+}
+#house table .heb {
+  background: url(../images/house/cityheb.png) no-repeat;
+}
+#house table .price1 {
+  background: url(../images/house/househk.png) no-repeat;
+}
+#house table .price2 {
+  background: url(../images/house/housebj.png) no-repeat;
+}
+#house table .price3 {
+  background: url(../images/house/housetb.png) no-repeat;
+}
+#house table .price4 {
+  background: url(../images/house/housesh.png) no-repeat;
+}
+#house table .price5 {
+  background: url(../images/house/housexm.png) no-repeat;
+}
+#house table .price6 {
+  background: url(../images/house/househz.png) no-repeat;
+}
+#house table .price7 {
+  background: url(../images/house/housesz.png) no-repeat;
+}
+#house table .price8 {
+  background: url(../images/house/housegz.png) no-repeat;
+}
+#house table .price9 {
+  background: url(../images/house/housedl.png) no-repeat;
+}
+#house table .price10 {
+  background: url(../images/house/househeb.png) no-repeat;
+}
+#house table .divorce1 {
+  background: url(../images/house/divorcebj.png) no-repeat;
+}
+#house table .divorce2 {
+  background: url(../images/house/divorcesh.png) no-repeat;
+}
+#house table .divorce3 {
+  background: url(../images/house/divorcesz.png) no-repeat;
+}
+#house table .divorce4 {
+  background: url(../images/house/divorcegz.png) no-repeat;
+}
+#house table .divorce5 {
+  background: url(../images/house/divorcexm.png) no-repeat;
+}
+#house table .divorce6 {
+  background: url(../images/house/divorcehk.png) no-repeat;
+}
+#house table .divorce7 {
+  background: url(../images/house/divorcetb.png) no-repeat;
+}
+#house table .divorce8 {
+  background: url(../images/house/divorcedl.png) no-repeat;
+}
+#house table .divorce9 {
+  background: url(../images/house/divorcehz.png) no-repeat;
+}
+#house table .divorce10 {
+  background: url(../images/house/divorceheb.png) no-repeat;
+}
+#house .line-area {
+  width: 690px;
+  height: 500px;
+  position: absolute;
+  top: 300px;
+  left: 125px;
+}
+#house .line-area .line {
+  position: absolute;
+  width: 100%;
+  height: 10px;
+  opacity: 0.2;
+}
+#house .line-area .number {
+  position: absolute;
+  width: 400px;
+  height: 10px;
+  right: -90px;
+  display: none;
+}
+#house .line-area .bj {
+  top: 30px;
+  width: 665px;
+  height: 56px;
+  background: url(../images/house/line-num/line01-BJ.png) no-repeat;
+}
+#house .line-area .bj .number {
+  top: -14px;
+  right: -104px;
+  width: 389px;
+  height: 94px;
+  background: url(../images/house/line-num/num01-BJ.png) no-repeat;
+}
+#house .line-area .sh {
+  top: 86px;
+  width: 660px;
+  height: 115px;
+  background: url(../images/house/line-num/line02-SH.png) no-repeat;
+}
+#house .line-area .sh .number {
+  top: -10px;
+  right: -104px;
+  width: 445px;
+  height: 149px;
+  background: url(../images/house/line-num/num02-SH.png) no-repeat;
+}
+#house .line-area .gz {
+  top: 143px;
+  width: 660px;
+  height: 281px;
+  background: url(../images/house/line-num/line03-GZ.png) no-repeat;
+}
+#house .line-area .gz .number {
+  top: 43px;
+  right: -104px;
+  width: 504px;
+  height: 263px;
+  background: url(../images/house/line-num/num03-GZ.png) no-repeat;
+}
+#house .line-area .hk {
+  top: 33px;
+  width: 665px;
+  height: 275px;
+  background: url(../images/house/line-num/line04-HK.png) no-repeat;
+}
+#house .line-area .hk .number {
+  top: -18px;
+  right: -120px;
+  width: 269px;
+  height: 319px;
+  background: url(../images/house/line-num/num04-HK.png) no-repeat;
+}
+#house .line-area .tb {
+  top: 146px;
+  width: 665px;
+  height: 219px;
+  background: url(../images/house/line-num/line05-TB.png) no-repeat;
+}
+#house .line-area .tb .number {
+  top: -17px;
+  right: -114px;
+  width: 429px;
+  height: 264px;
+  background: url(../images/house/line-num/num05-TB.png) no-repeat;
+}
+#house .line-area .sz {
+  top: 149px;
+  width: 660px;
+  height: 226px;
+  background: url(../images/house/line-num/line06-SZ.png) no-repeat;
+}
+#house .line-area .sz .number {
+  top: -16px;
+  right: -127px;
+  width: 499px;
+  height: 262px;
+  background: url(../images/house/line-num/num06-SZ.png) no-repeat;
+}
+#house .line-area .hz {
+  top: 317px;
+  width: 665px;
+  height: 170px;
+  background: url(../images/house/line-num/line07-HZ.png) no-repeat;
+}
+#house .line-area .hz .number {
+  top: -16px;
+  right: -94px;
+  width: 473px;
+  height: 206px;
+  background: url(../images/house/line-num/num07-HZ.png) no-repeat;
+}
+#house .line-area .xm {
+  top: 262px;
+  width: 665px;
+  height: 171px;
+  background: url(../images/house/line-num/line08-XM.png) no-repeat;
+}
+#house .line-area .xm .number {
+  top: -19px;
+  right: -112px;
+  width: 488px;
+  height: 38px;
+  background: url(../images/house/line-num/num08-XM.png) no-repeat;
+}
+#house .line-area .dl {
+  top: 432px;
+  width: 664px;
+  height: 59px;
+  background: url(../images/house/line-num/line09-DL.png) no-repeat;
+}
+#house .line-area .dl .number {
+  top: -14px;
+  right: -96px;
+  width: 504px;
+  height: 91px;
+  background: url(../images/house/line-num/num09-DL.png) no-repeat;
+}
+#house .line-area .heb {
+  top: 546px;
+  width: 674px;
+  height: 13px;
+  background: url(../images/house/line-num/line10-HEB.png) no-repeat;
+}
+#house .line-area .heb .number {
+  top: -17px;
+  right: -88px;
+  width: 543px;
+  height: 37px;
+  background: url(../images/house/line-num/num10-HEB.png) no-repeat;
+}
+/* material */
+#material {
+  width: 100%;
+  height: 1120px;
+  background: url(../images/material/materialbg.jpg) no-repeat;
+  position: absolute;
+}
+#material .return {
+  left: 44px;
+  top: 80px;
+  opacity: 1;
+}
+#material .chart {
+  width: 900px;
+  height: 450px;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+#material #own,
+#material #press {
+  width: 430px;
+  height: 430px;
+  margin-left: 10px;
+  float: left;
+  /*.b;*/
+}
+#material #press:after {
+  content: '';
+  clear: both;
+}
+/* sleep */
+#sleep {
+  position: absolute;
+  width: 100%;
+  min-height: 551px;
+  background: url(../images/sleep/sleepbg.jpg) no-repeat;
+}
+#sleep .enter {
+  width: 800;
+  min-height: 170px;
+  margin: 0 auto;
+  margin-top: 300px;
+  text-align: center;
+}
+#sleep .enter .time,
+#sleep .enter .mark {
+  width: 217px;
+  height: 168px;
+  float: left;
+  background: url(../images/sleep/pillow1.png) no-repeat;
+}
+#sleep .enter .time {
+  margin-left: 200px;
+}
+#sleep .enter .mark {
+  width: 234px;
+  float: right;
+  margin-right: 180px;
+  background: url(../images/sleep/pillow2.png) no-repeat;
+}
+#sleep .enter .mark:after {
+  content: '';
+  clear: both;
+}
+#sleep-time {
+  position: absolute;
+  width: 100%;
+  height: 1002px;
+  background: url(../images/sleep/pillow1bg.jpg) no-repeat;
+}
+#sleep-mark {
+  position: absolute;
+  width: 100%;
+  height: 1120px;
+  background: url(../images/sleep/pillow2bg.jpg) no-repeat;
+}
+/* pension */
+#pension {
+  width: 100%;
+  height: 1269px;
+  position: absolute;
+  background: url(../images/pension/grandmabg.png) no-repeat;
+}
+/* car */
+#car {
+  width: 100%;
+  height: 1120px;
+  position: absolute;
+  background: url(../images/car/carbg.jpg) no-repeat;
+}
+/* earth */
+#earth {
+  width: 1068px;
+  height: 614px;
+  margin: 0 auto;
+  background: url(../images/earth/happiness.jpg) no-repeat;
+  position: relative;
+}
+#earth .return {
+  display: inline-block;
+  width: 58px;
+  height: 20px;
+  position: absolute;
+  left: 50px;
+  top: 40px;
+  background: url(../images/return.png) no-repeat;
+  z-index: 100;
+}
+#earth .area {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 56px;
+}
+#earth .area .item {
+  width: 152px;
+  height: 54px;
+  background: #ccc;
+  float: left;
+}
+#earth .area .happiness {
+  cursor: pointer;
+  background: url(../images/earth/Happiness_Off.png) no-repeat;
+}
+#earth .area .happiness:hover {
+  background: url(../images/earth/Happiness_On.png) no-repeat;
+}
+#earth .area .gdp {
+  cursor: pointer;
+  background: url(../images/earth/GDP_Off.png) no-repeat;
+}
+#earth .area .gdp:hover {
+  background: url(../images/earth/GDP_On.png) no-repeat;
+}
+#earth .area .healthy {
+  cursor: pointer;
+  background: url(../images/earth/healthy_Off.png) no-repeat;
+}
+#earth .area .healthy:hover {
+  background: url(../images/earth/healthy_On.png) no-repeat;
+}
+#earth .area .freedom {
+  cursor: pointer;
+  background: url(../images/earth/freedom_Off.png) no-repeat;
+}
+#earth .area .freedom:hover {
+  background: url(../images/earth/freedom_On.png) no-repeat;
+}
+#earth .area .generosity {
+  cursor: pointer;
+  background: url(../images/earth/generosity_Off.png) no-repeat;
+}
+#earth .area .generosity:hover {
+  background: url(../images/earth/generosity_On.png) no-repeat;
+}
+#earth .area .social {
+  cursor: pointer;
+  background: url(../images/earth/SocialSupport_Off.png) no-repeat;
+}
+#earth .area .social:hover {
+  background: url(../images/earth/SocialSupport_On.png) no-repeat;
+}
+#earth .area .corruption {
+  cursor: pointer;
+  background: url(../images/earth/Corruption_Off.png) no-repeat;
+}
+#earth .area .corruption:hover {
+  background: url(../images/earth/Corruption_On.png) no-repeat;
+}

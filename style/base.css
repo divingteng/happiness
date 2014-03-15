@@ -1,0 +1,21 @@
+.bg {
+  background: #ccc;
+}
+.b {
+  border: 1px solid red;
+}
+.active {
+  opacity: 1.0!important;
+}
+.inactive {
+  opacity: 0.1!important;
+}
+.bg2 {
+  background: #999;
+}
+.visible {
+  display: block!important;
+}
+.invisible {
+  display: none;
+}

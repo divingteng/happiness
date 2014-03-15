@@ -1,0 +1,67 @@
+.bg {
+  background: #ccc;
+}
+.b {
+  border: 1px solid red;
+}
+.active {
+  opacity: 1.0!important;
+}
+.inactive {
+  opacity: 0.1!important;
+}
+.bg2 {
+  background: #999;
+}
+.visible {
+  display: block!important;
+}
+.invisible {
+  display: none;
+}
+body {
+  background: url(../images/welbg.png);
+  background-size: 100%;
+  text-align: center;
+}
+/* page_1 */
+#container {
+  margin: 0 auto;
+  width: 960px;
+  height: 500px;
+  text-align: center;
+  margin-top: 150px;
+}
+#container .title {
+  width: 623px;
+  height: 79px;
+  margin: 0 auto;
+  position: relative;
+}
+#container .title .icon1 {
+  width: 623px;
+  height: 79px;
+  position: absolute;
+  background: url(../images/if.png) no-repeat;
+  top: 49px;
+}
+#container .title .icon2 {
+  width: 202px;
+  height: 134px;
+  position: absolute;
+  background: url(../images/xingfu.png) no-repeat;
+  left: 150px;
+}
+#container .quote {
+  width: 601px;
+  height: 82px;
+  margin: 100px auto;
+  background: url(../images/welp.png) no-repeat;
+}
+#container .enter {
+  display: block;
+  width: 154px;
+  height: 30px;
+  margin: 130px auto;
+  background: url(../images/in.png) no-repeat;
+}

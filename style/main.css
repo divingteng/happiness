@@ -1,0 +1,112 @@
+html {
+  background-color: #d7e6f3;
+}
+.bg {
+  background: #ccc;
+}
+.b {
+  border: 1px solid red;
+}
+.active {
+  opacity: 1.0!important;
+}
+.inactive {
+  opacity: 0.1!important;
+}
+.bg2 {
+  background: #999;
+}
+.visible {
+  display: block!important;
+}
+.invisible {
+  display: none;
+}
+#container {
+  margin: 0 auto;
+  width: 983px;
+  height: 581px;
+  background: url(../images/homebg.png) no-repeat;
+  position: relative;
+  z-index: 0;
+}
+#container a {
+  display: block;
+}
+#container .earth {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  right: 10px;
+  bottom: 10px;
+  background: url(../images/earth.png) no-repeat;
+}
+#container .house {
+  position: absolute;
+  width: 960px;
+  height: 280px;
+  left: 0px;
+  top: 0px;
+  background: transparent;
+  cursor: pointer;
+}
+#container .material {
+  position: absolute;
+  width: 42px;
+  height: 37px;
+left: 112px;
+top: 442px;
+  background: url(../images/wallet.png) no-repeat;
+}
+#container .house .heart {
+  position: absolute;
+  left: 110px;
+  top: 240px;
+  width: 55px;
+  height: 50px;
+  background: url(../images/heart.png) no-repeat center;
+}
+#container .house .heart:hover {
+  background: url(../images/broken.png) no-repeat center;
+}
+#container .sleep {
+  position: absolute;
+  width: 122px;
+  height: 128px;
+  left: 370px;
+  top: 180px;
+  background: url(../images/sleep.png) no-repeat;
+}
+#container .child {
+  position: absolute;
+  width: 90px;
+  height: 149px;
+  left: 566px;
+  top: 380px;
+  background: url(../images/child.png) no-repeat;
+}
+#container .pension {
+  position: absolute;
+  width: 100px;
+  height: 231px;
+  left: 500px;
+  top: 280px;
+  background: url(../images/grandma.png) no-repeat;
+}
+#container .pension .hand {
+  width: 45px;
+  height: 33px;
+  position: absolute;
+  top: 125px;
+  left: 53px;
+  background: url(../images/hand.png) no-repeat;
+  z-index: 20;
+}
+#container .transport {
+  position: absolute;
+  width: 282px;
+  height: 176px;
+  left: 635px;
+  top: 214px;
+  background: url(../images/car.png) no-repeat;
+}
